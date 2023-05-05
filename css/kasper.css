@@ -1,0 +1,70 @@
+/* global rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2,
+h3 {
+    text-transform: capitalize;
+}
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* mobile */
+
+@media (300px <=width <=425px) {
+    .container {
+        width: 300px;
+    }
+}
+
+/* tablet */
+
+@media (426px <=width <=768px) {
+    .container {
+        width: 600px;
+    }
+}
+
+/* laptop */
+
+@media (769px <=width <=1024px) {
+    .container {
+        width: 800px;
+    }
+}
+
+/* large laptop */
+
+@media (1025px <=width <=1440px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+/* 4K */
+
+@media (1441px <=width <=2560px) {
+    .container {
+        width: 2000px;
+    }
+}
+
+/* end of global rules */
